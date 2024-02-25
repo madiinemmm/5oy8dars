@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} body {
+  background-image: url(./images/Crevasse\ Black\ Full\ Hd\ Backgraunds\ -\ 4K\ Dark\ Desktop\ Wallpaper\ UltraHD\ 3840x2160\ \(1\).jpg) ; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-color: rgba(52, 51, 51, 0.5);
+
+}
+
+.wrapper {
+    width: 1400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: -5px 3px 75px 9px rgba(0,0,0,1);
+    -webkit-box-shadow: -5px 3px 75px 9px rgba(0,0,0,1);
+    -moz-box-shadow: -5px 3px 75px 9px rgba(0,0,0,1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0F5FA   ;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.header h3 {
+    color: #3C5572;
+    font-weight: 500;
+}
+.header2 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header2 :hover {
+    color: #006FE8;
+}
+
+.icon {
+    color: #3C5572;
+}
+input {
+    padding: 15px;
+    width: 350px;
+    margin-left: 80px;
+    outline: none;
+    border: 1px solid #c4c0c0;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: -1px 1px 21px 10px rgba(250,242,242,1);
+    -webkit-box-shadow: -1px 1px 21px 10px rgba(250,242,242,1);
+    -moz-box-shadow: -1px 1px 21px 10px rgba(250,242,242,1);
+    
+}
+.wrapper2 {
+    display: flex;
+}
+
+form {
+    margin-left: 80px;
+    font-weight: 600;
+}
+.input {
+    margin-top: 50px;
+}
+
+option {
+
+   font-size: 20px;
+}
+
+select {
+    padding: 15px;
+    width: 350px;
+    margin-left: 50px;
+    outline: none;
+    border: 1px solid #c4c0c0;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-top: 74px;
+    box-shadow: -1px 1px 21px 10px rgba(250,242,242,1);
+    -webkit-box-shadow: -1px 1px 21px 10px rgba(250,242,242,1);
+    -moz-box-shadow: -1px 1px 21px 10px rgba(250,242,242,1);
+
+}
+.arrow-right-left {
+    margin-top: 87px;
+    margin-left: 50px;
+    cursor: pointer;
+   
+}
+
+.result-txt {
+    margin-left: 80px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.result-txt span {
+    color: #5b5b5b;
+}
+
+.result-txt2 {
+    margin-left: 80px;
+    color: #5b5b5b;
+}
+.from {
+    margin-top: 50px;
+    position: absolute;
+}
+
+
